@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/logo-removebg-previewSmallerCopy.png" type="image/x-icon">
+    <link rel="stylesheet" href="teamStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="/viewProfile.js"></script>
+    <title>Team</title>
+</head>
+    <body>
+        <header>
+            <a href="#" class="logo"><img src="/logo-removebg-previewSmaller.png"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/Team.html">Team</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/Events.html">Events</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container-for-container">
+            <div class="grid-container">
+                <div id = 'Nelson' class="grid-item"  onclick= "openModal('nelson.jpeg')"><h3>Nelson</h3></div>
+                <div id = 'hlomla' class="grid-item"  onclick= "openModal('hlomla.jpeg')"><h3>Hlomla</h3></div>
+                <div id = 'nyewuza' class="grid-item"  onclick="openModal('nyewuza.jpeg')"><h3>Nyewuza</h3></div>
+                <div id = 'zukhanye' class="grid-item"  onclick="openModal('zukhanye.jpeg')"><h3>zukhanye</h3></div>
+                <div id = 'tediso' class="grid-item"  onclick="openModal('tediso.jpeg')"><h3>Tediso</h3></div>
+                <div id = 'mbasa' class="grid-item"  onclick="openModal('mbasa.jpeg')"><h3>mbasa</h3></div>
+            </div>
+        </div>
+
+        <div id="myModal" class="overlay">
+            <img class="modal" id="modalImg" src="">
+        </div>
+
+    </body>
+</html>

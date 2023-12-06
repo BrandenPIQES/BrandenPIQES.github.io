@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #000000, #DAA520);
+}
+
+
+header{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* WAS: margin-botton: 20px;*/
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a{
+    color: #ffc600;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: #FDE800;
+}
+
+.about-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ONE,
+.TWO,
+.THREE,
+.FOUR,
+.FIVE,
+.SIX,
+.SEVEN,
+.EIGHT,
+.NINE,
+.TEN,
+.ELEVEN {
+    flex: 0 0 50%; /* Set flex-basis to 50% for a two-column layout */
+}
+
+.ONE,
+.TWO,
+.THREE,
+.FOUR,
+.FIVE,
+.SIX,
+.SEVEN,
+.EIGHT,
+.NINE,
+.TEN,
+.ELEVEN{
+    border-radius: 10px;
+    min-height: 200px;
+    background-color: #DAA520;
+    margin: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sublist{
+    list-style: none;
+}
+
+.FOUR{
+    text-align: center;
+    font-size: 30px;
+    background-color: transparent;
+}
+
