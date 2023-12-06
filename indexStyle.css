@@ -115,13 +115,13 @@ h1{
     background-color: #FDE800;
 }
 
-/* footer{
+ footer{
     padding: 150px 6%;
     text-align: center;
     bottom: -100px;
     left: 6%;
-} */
-/* 
+} 
+
 .social-icons i{
     font-size: 22px;
     color: #fff;
@@ -132,7 +132,7 @@ h1{
 
 .social-icons i:hover{
     transform: scale(1.09);
-} */
+} 
 
 .copyright{
     font-size: 10px;
