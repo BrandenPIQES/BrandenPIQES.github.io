@@ -13,7 +13,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to bottom, #000000, #DAA520);
+    background: linear-gradient(to bottom, #231701, #DAA520);
 }
 
 
@@ -38,7 +38,7 @@ nav ul{
 }
 
 nav ul li a{
-    color: #ffc600;
+    color: #DAA520;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -47,10 +47,48 @@ nav ul li a:hover{
     color: #FDE800;
 }
 
+h1{
+    color: #DAA520;
+    margin: 30px;
+    font-size: 35px;
+}
+
+.article_picture{
+    border-radius: 8px;
+    margin: 10px;
+    background-image: url("/edited_about.jpg");
+}
+
+.article_container {
+    height: 100%;
+    display: flex;
+    background-color: #DAA520;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+
+.article_image img {
+    object-fit: cover;
+}
+
 .about-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+
+.article_content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+@media(max-width: 500px){
+    .article_container{
+        display: block;
+    }
 }
 
 .ONE,
@@ -64,10 +102,10 @@ nav ul li a:hover{
 .NINE,
 .TEN,
 .ELEVEN {
-    flex: 0 0 50%; /* Set flex-basis to 50% for a two-column layout */
+     flex: 0 0 50%;  /*Set flex-basis to 50% for a two-column layout  */
 }
 
-.ONE,
+
 .TWO,
 .THREE,
 .FOUR,
@@ -81,10 +119,10 @@ nav ul li a:hover{
     border-radius: 10px;
     min-height: 200px;
     background-color: #DAA520;
-    margin: 90px;
+    margin-bottom: 90px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
